@@ -1,0 +1,103 @@
+body {
+    background-color: #06283D;
+}
+
+ul{
+    list-style: none;
+}
+
+#big-text{
+    float: left;
+    width: 500px;
+    background-color: #47B5FF;
+}
+
+
+#outer-circle {
+    aspect-ratio: 1 / 1;
+    height: 29vw;
+    border-radius: 100%;
+    background-color: #DFF6FF;
+}
+
+#face {
+    aspect-ratio: 1 / 1;
+    height: 27.5vw;
+    outline: .25vw solid #06283D;
+    border-radius: 100%;
+    background-color: #256D85;
+
+}
+
+.indicator{
+    position: absolute;
+    width: .1vw;
+    height: .8vw;
+    background: #DFF6FF;
+}
+
+.number {
+    height: auto;
+    width: auto;
+    font-size: 3vw;
+    color: #DFF6FF;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+}
+
+#nine{
+    margin-left: -12vw;
+}
+
+#three{
+    margin-left: 12vw;
+}
+
+#twelve{
+    margin-top: -12vw;
+}
+
+#six{
+    margin-top: 12vw;
+}
+
+.hand {
+    transform-origin: top;
+    background-color: #DFF6FF;
+    border-radius: 40%;
+}
+
+#hour {
+    aspect-ratio: 1 / 12;
+    height: 6vw;
+    margin-left: -.22vw;
+}
+
+#minute {
+    aspect-ratio: 1 / 20;
+    height: 9vw;
+    margin-left: -.22vw;
+}
+
+#second {
+    aspect-ratio: 1 / 40;
+    height: 10vw;
+    margin-left: -.1vw;
+    z-index: 3;
+    background-color: #47B5FF;
+}
+
+#center-dot {
+    aspect-ratio: 1 / 1;
+    height: 1.5vh;
+    border-radius: 100%;
+    background-color: #47B5FF;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
